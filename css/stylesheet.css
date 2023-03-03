@@ -3759,3 +3759,17 @@ button.rn-btn:hover {
   background-color: #000;
   color: #fff;
 }
+
+.navbar-toggler{
+  display: none !important;
+}
+@media screen and (max-width: 960px){
+  .stick-nav-links{
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar-toggler{
+    display: block !important;
+  }
+}
