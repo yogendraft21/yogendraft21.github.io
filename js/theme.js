@@ -7,6 +7,7 @@
 */
 
 
+
 (function ($) {
 	"use strict";
 
@@ -17,6 +18,10 @@ $(window).on('load', function () {
 	$('body').delay(333);
 });
 
+let resume1 = document.getElementById("link-open")
+resume1.onclick =()=>{
+    window.open("https://drive.google.com/file/d/1oZnDZzhQDb5qBObT-jE3UsmVuphPPM_g/view?usp=share_link")
+}
 
 // Header Sticky
 $(window).on('scroll',function() {
