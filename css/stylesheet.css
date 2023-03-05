@@ -3773,3 +3773,7 @@ button.rn-btn:hover {
     display: block !important;
   }
 }
+.title-name{
+  font-weight: bold;
+  font-size: 26px;
+}
