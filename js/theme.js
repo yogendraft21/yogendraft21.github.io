@@ -20,7 +20,9 @@ $(window).on('load', function () {
 
 let resume1 = document.getElementById("link-open")
 resume1.onclick =()=>{
-    window.open("https://drive.google.com/file/d/1oZnDZzhQDb5qBObT-jE3UsmVuphPPM_g/view?usp=share_link")
+    window.open(
+      "https://drive.google.com/file/d/1vL9LbNLArESf6lrIhidJ4xVewqkcMZ_X/view?usp=sharing"
+    );
 }
 
 // Header Sticky
